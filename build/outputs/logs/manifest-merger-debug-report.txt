@@ -1,0 +1,389 @@
+-- Merging decision tree log ---
+manifest
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:2:1-96:12
+MERGED from [:google_unity_wrapper:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\google_unity_wrapper.aar\d27ce2ab3d304b3c94bcee457d095ce5\AndroidManifest.xml:2:1-11:12
+MERGED from [:support-v4-23.4.0:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\ab06eb6e4cd8509f9f95c07b7aa843c9\AndroidManifest.xml:17:1-24:12
+MERGED from [:unity_plugin_merged:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\unity_plugin_merged.aar\5c9ce3a218aae14e8eb8e2b30d247f0b\AndroidManifest.xml:2:1-6:12
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:2:1-75:12
+INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:2:1-96:12
+	package
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml
+		INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:6:5-31
+		INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml
+		INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:7:5-29
+		INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml
+		INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml
+	android:largeHeap
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:5:5-29
+	android:installLocation
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:8:5-45
+	android:theme
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:4:5-52
+uses-feature#android.hardware.camera.autofocus
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:10:3-93
+	android:required
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:10:66-90
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:10:17-65
+uses-sdk
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:11:3-72
+INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:11:3-72
+INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:11:3-72
+MERGED from [:google_unity_wrapper:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\google_unity_wrapper.aar\d27ce2ab3d304b3c94bcee457d095ce5\AndroidManifest.xml:7:5-9:41
+MERGED from [:google_unity_wrapper:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\google_unity_wrapper.aar\d27ce2ab3d304b3c94bcee457d095ce5\AndroidManifest.xml:7:5-9:41
+MERGED from [:support-v4-23.4.0:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\ab06eb6e4cd8509f9f95c07b7aa843c9\AndroidManifest.xml:20:5-43
+MERGED from [:support-v4-23.4.0:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\ab06eb6e4cd8509f9f95c07b7aa843c9\AndroidManifest.xml:20:5-43
+MERGED from [:unity_plugin_merged:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\unity_plugin_merged.aar\5c9ce3a218aae14e8eb8e2b30d247f0b\AndroidManifest.xml:4:5-74
+MERGED from [:unity_plugin_merged:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\unity_plugin_merged.aar\5c9ce3a218aae14e8eb8e2b30d247f0b\AndroidManifest.xml:4:5-74
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:7:5-9:41
+INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:11:3-72
+INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:11:3-72
+	android:targetSdkVersion
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:11:40-69
+		INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml
+		INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:11:13-39
+		INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml
+		INJECTED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:12:3-63
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:25:5-65
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:12:20-60
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:13:3-77
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:18:5-79
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:13:20-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:14:3-79
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:15:5-81
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:14:20-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:15:3-78
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:15:20-75
+uses-permission#android.permission.BLUETOOTH
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:17:5-68
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:11:5-68
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:18:5-74
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:12:5-74
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:18:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:19:5-66
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:35:5-66
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:35:5-66
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:19:22-63
+uses-permission#android.permission.INTERNET
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:21:5-76
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:21:5-76
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:21:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:22:5-68
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:20:5-68
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:23:5-81
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:17:5-81
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:24:5-79
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:13:5-79
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:26:5-76
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:39:5-76
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:39:5-76
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:26:22-73
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:27:5-84
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:26:5-84
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:27:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:30:5-78
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:23:5-78
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:30:22-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:31:5-75
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:40:5-75
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:40:5-75
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:31:22-72
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:32:5-78
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:32:5-79
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:32:22-76
+uses-feature#android.hardware.usb.host
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:35:5-37:36
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:53:5-55:36
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:53:5-55:36
+	android:required
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:36:9-49
+uses-feature#android.hardware.usb.accessory
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:38:5-40:35
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:56:5-58:35
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:56:5-58:35
+	android:required
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:40:9-32
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:39:9-54
+application
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:43:3-88:17
+MERGED from [:support-v4-23.4.0:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\ab06eb6e4cd8509f9f95c07b7aa843c9\AndroidManifest.xml:22:5-20
+MERGED from [:support-v4-23.4.0:] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\ab06eb6e4cd8509f9f95c07b7aa843c9\AndroidManifest.xml:22:5-20
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:60:5-73:19
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:60:5-73:19
+	android:label
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:46:7-39
+	android:icon
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:45:7-40
+	android:banner
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:48:7-44
+	android:isGame
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:47:7-28
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:44:7-35
+uses-library#com.android.future.usb.accessory
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:50:7-71
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:50:21-68
+meta-data#com.dji.sdk.API_KEY
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:51:7-53:54
+	android:value
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:53:11-51
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:52:11-45
+activity#dji.sdk.sdkmanager.DJIAoaControllerActivity
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:54:7-64:18
+	android:screenOrientation
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:57:11-48
+	android:theme
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:56:11-59
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:55:11-69
+intent-filter#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:58:11-60:27
+action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:59:15-91
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:59:23-88
+meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:61:11-63:58
+	android:resource
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:63:15-55
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:62:15-80
+service#dji.sdk.sdkmanager.DJIGlobalService
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:65:7-66:17
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:61:9-63:43
+MERGED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:61:9-63:43
+	android:stopWithTask
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:63:13-40
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:65:16-66
+meta-data#IMMERSIVE_MODE
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:69:5-69
+	android:value
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:69:46-66
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:69:16-45
+activity#com.projecttango.droneMaze.DJIfrontEnd
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:71:7-80:18
+	android:screenOrientation
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:72:11-48
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:71:17-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:73:11-77:27
+action#android.intent.action.MAIN
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:74:15-67
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:74:23-64
+category#android.intent.category.LAUNCHER
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:76:15-75
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:76:25-72
+meta-data#unityplayer.UnityActivity
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:79:11-86
+	android:value
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:79:63-83
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:79:22-62
+activity#com.google.unity.GoogleUnityActivity
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:81:5-87:16
+	android:screenOrientation
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:83:42-79
+	android:label
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:83:9-41
+	android:launchMode
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:83:80-111
+	android:configChanges
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:83:112-285
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:82:9-60
+meta-data#unityplayer.ForwardNativeEventsToDalvik
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:84:7-96
+	android:value
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:84:73-93
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:84:18-72
+uses-feature#0x00020000
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:89:3-52
+	android:glEsVersion
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:89:17-49
+uses-feature#android.hardware.camera
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:91:3-83
+	android:required
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:91:56-80
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:91:17-55
+uses-feature#android.hardware.camera.front
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:92:3-89
+	android:required
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:92:62-86
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:92:17-61
+uses-feature#android.hardware.touchscreen
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:93:3-88
+	android:required
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:93:61-85
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:93:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:94:3-99
+	android:required
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:94:72-96
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:94:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:95:3-108
+	android:required
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:95:81-105
+	android:name
+		ADDED from B:\DroneCode\reverseUnityARTango\src\main\AndroidManifest.xml:95:17-80
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:14:5-98
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:14:22-95
+uses-permission#android.permission.WRITE_USER_DICTIONARY
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:30:5-75
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:30:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:31:5-73
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:31:22-70
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:33:5-84
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:33:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:34:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:38:5-68
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:38:22-65
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:41:5-74
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:41:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:42:5-71
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:42:22-68
+uses-permission#android.permission.RAISED_THREAD_PRIORITY
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:43:5-81
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:43:22-78
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:44:5-85
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:44:22-82
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:50:5-74
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:50:22-71
+receiver#dji.logic.receiver.DJIPilotStartupReceiver
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:65:9-72:20
+	android:exported
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:67:13-36
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:66:13-70
+intent-filter#dji.go3.STARTUP+dji.go4.STARTUP
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:68:13-71:29
+action#dji.go3.STARTUP
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:69:17-58
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:69:25-55
+action#dji.go4.STARTUP
+ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:70:17-58
+	android:name
+		ADDED from [com.dji:dji-sdk:4.5.1] C:\Users\Aaron\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.5.1.aar\0c6218dec594fdef491d44fc7cfb91a4\AndroidManifest.xml:70:25-55

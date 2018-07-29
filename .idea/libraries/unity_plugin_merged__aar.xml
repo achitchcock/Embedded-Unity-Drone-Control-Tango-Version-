@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="unity_plugin_merged:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unity_plugin_merged.aar/5c9ce3a218aae14e8eb8e2b30d247f0b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unity_plugin_merged.aar/5c9ce3a218aae14e8eb8e2b30d247f0b/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

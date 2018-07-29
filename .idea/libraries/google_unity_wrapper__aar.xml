@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="google_unity_wrapper:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/google_unity_wrapper.aar/d27ce2ab3d304b3c94bcee457d095ce5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/google_unity_wrapper.aar/d27ce2ab3d304b3c94bcee457d095ce5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
