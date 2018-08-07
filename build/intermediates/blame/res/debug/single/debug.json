@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Aaron\\.gradle\\caches\\transforms-1\\files-1.1\\dji-sdk-4.5.1.aar\\0c6218dec594fdef491d44fc7cfb91a4\\res\\drawable-xxhdpi-v4\\offline_map_download_red.png"
     },
     {
-        "merged": "B:\\DroneCode\\reverseUnityARTango\\build\\intermediates\\res\\merged\\debug\\raw_iframe_1920x1088_wm620.h264.flat",
-        "source": "C:\\Users\\Aaron\\.gradle\\caches\\transforms-1\\files-1.1\\dji-sdk-4.5.1.aar\\0c6218dec594fdef491d44fc7cfb91a4\\res\\raw\\iframe_1920x1088_wm620.h264"
-    },
-    {
         "merged": "B:\\DroneCode\\reverseUnityARTango\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4_ic_launcher.png.flat",
         "source": "C:\\Users\\Aaron\\.gradle\\caches\\transforms-1\\files-1.1\\dji-sdk-4.5.1.aar\\0c6218dec594fdef491d44fc7cfb91a4\\res\\mipmap-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "B:\\DroneCode\\reverseUnityARTango\\build\\intermediates\\res\\merged\\debug\\raw_iframe_1920x1088_wm620.h264.flat",
+        "source": "C:\\Users\\Aaron\\.gradle\\caches\\transforms-1\\files-1.1\\dji-sdk-4.5.1.aar\\0c6218dec594fdef491d44fc7cfb91a4\\res\\raw\\iframe_1920x1088_wm620.h264"
     },
     {
         "merged": "B:\\DroneCode\\reverseUnityARTango\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_exception_i_am_lost.png.flat",
@@ -430,6 +430,10 @@
     {
         "merged": "B:\\DroneCode\\reverseUnityARTango\\build\\intermediates\\res\\merged\\debug\\layout_offline_map_head_first_bar.xml.flat",
         "source": "C:\\Users\\Aaron\\.gradle\\caches\\transforms-1\\files-1.1\\dji-sdk-4.5.1.aar\\0c6218dec594fdef491d44fc7cfb91a4\\res\\layout\\offline_map_head_first_bar.xml"
+    },
+    {
+        "merged": "B:\\DroneCode\\reverseUnityARTango\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_icon.png.flat",
+        "source": "B:\\DroneCode\\reverseUnityARTango\\src\\main\\res\\drawable-xhdpi\\app_icon.png"
     },
     {
         "merged": "B:\\DroneCode\\reverseUnityARTango\\build\\intermediates\\res\\merged\\debug\\anim_core_zoom_enter.xml.flat",

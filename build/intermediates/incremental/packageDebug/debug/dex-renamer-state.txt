@@ -1,4 +1,4 @@
-#Sun Jul 29 02:20:04 PDT 2018
+#Tue Aug 07 03:00:42 PDT 2018
 base.0=B\:\\DroneCode\\reverseUnityARTango\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.1=classes.dex
 renamed.1=classes2.dex

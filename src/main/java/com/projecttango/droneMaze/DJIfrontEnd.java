@@ -128,6 +128,7 @@ public class DJIfrontEnd extends GoogleUnityActivity {//implements View.OnClickL
     private String productText;
     private String connectionStatus;
     private String state;
+    private String imuState;
     private LocationCoordinate3D droneLocation;
     private Boolean motorsOn;
     private boolean isFlying;
@@ -149,7 +150,7 @@ public class DJIfrontEnd extends GoogleUnityActivity {//implements View.OnClickL
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkAndRequestPermissions();
         }
-        connectionStatus = "Status: Unknown";
+        connectionStatus = "Unknown";
         productText = "Unknown";
         state = "Unknown";
         droneLocation = null;
@@ -158,6 +159,7 @@ public class DJIfrontEnd extends GoogleUnityActivity {//implements View.OnClickL
         GPSlevel = null;
         satelliteCount = 0;
         mProductGimbal = null;
+        imuState = "Unknown";
         //mUnityPlayer = new UnityPlayer(this);
         //setContentView(mUnityPlayer);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
@@ -194,7 +196,11 @@ public class DJIfrontEnd extends GoogleUnityActivity {//implements View.OnClickL
         return connectionStatus;
     }
 
-    public byte[] getVid() {
+    public String getIMUstate(){
+        return imuState;
+    }
+
+    public byte[] getVideoFrame() {
         try {
             return djiBack.getJdata();
         } catch (Exception e) {
@@ -209,7 +215,7 @@ public class DJIfrontEnd extends GoogleUnityActivity {//implements View.OnClickL
 
     // Flight Controller Functions
 
-    private void flightControllerStatus() {
+    private void refreshFlightControllerStatus() {
         try {
             initFlightController();
         } catch (Exception e) {
@@ -226,10 +232,14 @@ public class DJIfrontEnd extends GoogleUnityActivity {//implements View.OnClickL
 
             // State summary string:
             if (st.isIMUPreheating() == true) {
+                imuState = "Preheating" ;
                 state += "| IMU: Preheating. ";
+
             } else {
+                imuState =  "Ready";
                 state += "| IMU: ready";
             }
+
             state += "|  Flight Mode: " + st.getFlightModeString();
             state += "\nGPS Signal Level: " + st.getGPSSignalLevel();
             state += "| GPS Satelite count:" + st.getSatelliteCount();
@@ -272,33 +282,33 @@ public class DJIfrontEnd extends GoogleUnityActivity {//implements View.OnClickL
         @Override
         public void onReceive(Context context, Intent intent) {
             Log.d(TAG, "broadcast receiver hit...");
-            refreshSDKRelativeUI();
+            refreshConnectionStatus();
         }
     };
 
-    private void refreshSDKRelativeUI() {
+    private void refreshConnectionStatus() {
         BaseProduct mProduct = djiBack.getProductInstance();
 
 
         if (null != mProduct && mProduct.isConnected()) {
-            Log.v(TAG, "refreshSDK: True");
+            Log.v(TAG, "refreshConnectionStatus: product connected");
             String str = mProduct instanceof Aircraft ? "DJIAircraft" : "DJIHandHeld";
             //mTextConnectionStatus.setText("Status: " + str + " connected");
 
             if (null != mProduct.getModel()) {
                 productText = ("" + mProduct.getModel().getDisplayName());
-                connectionStatus = "Status: " + str + " connected";
+                connectionStatus = str + " connected";
             } else {
                 productText = ("Product Information");
             }
         } else {
-            Log.v(TAG, "refreshSDK: False");
+            Log.v(TAG, "refreshConnectionStatus: product not connected");
             //mBtnOpen.setEnabled(false);
 
             productText = "Product Information";
-            connectionStatus = "Status: No Product Connected";
+            connectionStatus = "No Product Connected";
         }
-        Log.d(TAG, "refreshSDKRelativeUI: " + connectionStatus);
+        Log.d(TAG, "refreshConnectionStatus: " + connectionStatus);
     }
 
     private void initFlightController() {
@@ -330,6 +340,25 @@ public class DJIfrontEnd extends GoogleUnityActivity {//implements View.OnClickL
         }
         flightController.startLanding(genericCallback("Landing started", true));
     }
+
+    public void enableVideo(){
+        if(null != djiBack){
+            djiBack.enableVideo();
+        }else{
+            showToast("Drone connection not setup");
+        }
+    }
+
+    public void disableVideo(){
+        if(null != djiBack){
+            djiBack.disableVideo();
+        }else {
+            showToast("Drone connection not setup");
+        }
+    }
+
+
+
 
     void startLocationService(){
         if(null == locationManager) {
@@ -479,22 +508,6 @@ public class DJIfrontEnd extends GoogleUnityActivity {//implements View.OnClickL
                 .build(), genericCallback("Rotation", false));
 
     }
-
-    void adjustGimbalRotation(float pitchValue, float rollValue){
-        setGimbalRotation(pitchValue, 0);
-        /*Log.d(TAG, "GIMBAL ROTATION: " + pitchValue + " " + rollValue);
-        if(null == mProductGimbal){
-            initGimbal();
-        }
-        mProductGimbal.rotate(new Rotation.Builder().pitch(10)
-                .mode(RotationMode.RELATIVE_ANGLE)
-                .yaw(Rotation.NO_ROTATION)
-                .roll(Rotation.NO_ROTATION)
-                .time(0)
-                .build(), genericCallback("Rotation", true));
-        */
-    }
-
 
     //#############################################################################################
     // Unity required functions

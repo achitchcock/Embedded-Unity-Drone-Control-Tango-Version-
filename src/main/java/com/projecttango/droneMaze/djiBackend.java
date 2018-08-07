@@ -126,7 +126,7 @@ public class djiBackend extends Application implements TextureView.SurfaceTextur
         Log.d(TAG, "onCreate: DJIBACKEND LOG TESTING");
         super.onCreate();
         mHandler = new Handler(Looper.getMainLooper());
-        video_enabled = true;
+        video_enabled = false;
         mDJIComponentListener = new BaseComponent.ComponentListener() {
 
             @Override
