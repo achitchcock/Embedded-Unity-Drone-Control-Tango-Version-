@@ -56,24 +56,6 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
               </PATH_ELEMENT>
             </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="reverseUnityARTango" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Tasks" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="other" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
-              </PATH_ELEMENT>
-            </PATH>
           </tree_state>
         </projects_view>
       </state>
@@ -84,8 +66,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+            <state relative-caret-position="595">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -94,38 +76,16 @@
       <file leaf-file-name="DJIfrontEnd.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/projecttango/droneMaze/DJIfrontEnd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="228" column="40" lean-forward="false" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
+            <state relative-caret-position="510">
+              <caret line="910" column="50" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="952" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6840#6841#0" expanded="true" />
-                <element signature="e#6871#6872#0" expanded="true" />
-                <element signature="e#9493#9709#0" expanded="true" />
-                <element signature="e#9708#9709#0" expanded="true" />
-                <element signature="method#initFlightController#0;class#DJIfrontEnd#0" expanded="false" />
+                <element signature="method#getVideoFrame#0;class#DJIfrontEnd#0" expanded="false" />
                 <element signature="method#takeOff#0;class#DJIfrontEnd#0" expanded="false" />
                 <element signature="method#land#0;class#DJIfrontEnd#0" expanded="false" />
-                <element signature="method#followMeStart#0;class#DJIfrontEnd#0" expanded="false" />
-                <element signature="e#15898#16159#0" expanded="true" />
-                <element signature="e#16158#16159#0" expanded="true" />
-                <element signature="e#16287#17038#0" expanded="true" />
-                <element signature="e#16616#16996#0" expanded="true" />
-                <element signature="e#16995#16996#0" expanded="true" />
-                <element signature="e#17037#17038#0" expanded="true" />
-                <element signature="method#followMeStop#0;class#DJIfrontEnd#0" expanded="false" />
                 <element signature="class#SendVirtualStickDataTask#0;class#DJIfrontEnd#0" expanded="false" />
-                <element signature="e#20498#21040#0" expanded="true" />
-                <element signature="e#21039#21040#0" expanded="true" />
                 <element signature="method#startSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
                 <element signature="method#stopSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
-                <element signature="e#23886#24234#0" expanded="true" />
-                <element signature="e#24233#24234#0" expanded="true" />
-                <element signature="e#26481#27861#0" expanded="true" />
-                <element signature="e#27860#27861#0" expanded="true" />
-                <element signature="e#28865#29042#0" expanded="true" />
-                <element signature="e#29041#29042#0" expanded="true" />
-                <element signature="e#29180#29368#0" expanded="true" />
-                <element signature="e#29367#29368#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,25 +94,14 @@
       <file leaf-file-name="djiBackend.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/projecttango/droneMaze/djiBackend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4335">
-              <caret line="308" column="27" lean-forward="false" selection-start-line="308" selection-start-column="16" selection-end-line="308" selection-end-column="27" />
+            <state relative-caret-position="1292">
+              <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
               <folding>
-                <element signature="e#2413#2414#0" expanded="false" />
-                <element signature="e#2451#2452#0" expanded="false" />
-                <element signature="e#2577#2578#0" expanded="false" />
-                <element signature="e#2608#2609#0" expanded="false" />
-                <element signature="docComment;method#getProductInstance#0;class#djiBackend#0" expanded="false" />
                 <element signature="method#getProductInstance#0;class#djiBackend#0" expanded="false" />
                 <element signature="method#isAircraftConnected#0;class#djiBackend#0" expanded="false" />
                 <element signature="method#isHandHeldConnected#0;class#djiBackend#0" expanded="false" />
                 <element signature="method#getCameraInstance#0;class#djiBackend#0" expanded="false" />
-                <element signature="e#4096#4097#0" expanded="false" />
-                <element signature="e#4148#4149#0" expanded="false" />
-                <element signature="class#4200:4736" expanded="false" />
-                <element signature="e#11318#11319#0" expanded="false" />
-                <element signature="e#11355#11356#0" expanded="false" />
-                <element signature="e#18092#18093#0" expanded="false" />
-                <element signature="e#18142#18143#0" expanded="false" />
+                <element signature="class#4342:4878" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -161,8 +110,8 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="74" />
+            <state relative-caret-position="612">
+              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -174,11 +123,9 @@
       <file leaf-file-name="MApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/projecttango/droneMaze/MApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,6 +159,12 @@
       <find>video_enabled</find>
       <find>enableVideo</find>
       <find>refreshSDK</find>
+      <find>attitude</find>
+      <find>initheight</find>
+      <find>productText</find>
+      <find>initFlightController</find>
+      <find>com.</find>
+      <find>droneLocation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1178,18 +1131,16 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/projecttango/droneMaze/UnityPlayerActivity.java" />
         <option value="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unity_plugin_merged.aar/5c9ce3a218aae14e8eb8e2b30d247f0b/jars/classes.jar!/com/projecttango/unity/TangoUnityHelper.class" />
-        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/google_unity_wrapper.aar/d27ce2ab3d304b3c94bcee457d095ce5/jars/classes.jar!/com/google/unity/GoogleUnityActivity.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/projecttango/droneMaze/djiBackend.java" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/projecttango/droneMaze/DJIfrontEnd.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1416" />
+    <option name="width" value="1382" />
+    <option name="height" value="1394" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1207,9 +1158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -1219,12 +1167,15 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+              <option name="myItemId" value="reverseUnityARTango" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1334,7 +1285,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533636501424" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1534535813578" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -1382,7 +1333,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533636501424" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1534535813578" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1414,6 +1365,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -1544,7 +1516,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1533636501425" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1534535813578" />
       </method>
     </configuration>
     <list size="2">
@@ -1579,7 +1551,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,SHOW_INTERFACES" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1592,9 +1564,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="0" />
+    <frame x="0" y="0" width="1382" height="1394" extended-state="0" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30659252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1606,14 +1578,14 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43367752" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54725975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25626516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.186407" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14785373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2375189" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18835099" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15808171" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1631,7 +1603,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -1649,34 +1623,12 @@
           <caret line="369" column="31" lean-forward="false" selection-start-line="369" selection-start-column="24" selection-end-line="369" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6840#6841#0" expanded="true" />
-            <element signature="e#6871#6872#0" expanded="true" />
-            <element signature="e#9493#9709#0" expanded="true" />
-            <element signature="e#9708#9709#0" expanded="true" />
-            <element signature="method#initFlightController#0;class#DJIfrontEnd#0" expanded="false" />
+            <element signature="method#getVideoFrame#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#takeOff#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#land#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="method#followMeStart#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#15898#16159#0" expanded="true" />
-            <element signature="e#16158#16159#0" expanded="true" />
-            <element signature="e#16287#17038#0" expanded="true" />
-            <element signature="e#16616#16996#0" expanded="true" />
-            <element signature="e#16995#16996#0" expanded="true" />
-            <element signature="e#17037#17038#0" expanded="true" />
-            <element signature="method#followMeStop#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="class#SendVirtualStickDataTask#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#20498#21040#0" expanded="true" />
-            <element signature="e#21039#21040#0" expanded="true" />
             <element signature="method#startSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#stopSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#23886#24234#0" expanded="true" />
-            <element signature="e#24233#24234#0" expanded="true" />
-            <element signature="e#26481#27861#0" expanded="true" />
-            <element signature="e#27860#27861#0" expanded="true" />
-            <element signature="e#28865#29042#0" expanded="true" />
-            <element signature="e#29041#29042#0" expanded="true" />
-            <element signature="e#29180#29368#0" expanded="true" />
-            <element signature="e#29367#29368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1700,9 +1652,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1718,22 +1668,11 @@
         <state relative-caret-position="4726">
           <caret line="331" column="39" lean-forward="false" selection-start-line="331" selection-start-column="39" selection-end-line="331" selection-end-column="39" />
           <folding>
-            <element signature="e#2413#2414#0" expanded="false" />
-            <element signature="e#2451#2452#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2608#2609#0" expanded="false" />
-            <element signature="docComment;method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isAircraftConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isHandHeldConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getCameraInstance#0;class#djiBackend#0" expanded="false" />
-            <element signature="e#4096#4097#0" expanded="false" />
-            <element signature="e#4148#4149#0" expanded="false" />
-            <element signature="class#4200:4736" expanded="false" />
-            <element signature="e#11318#11319#0" expanded="false" />
-            <element signature="e#11355#11356#0" expanded="false" />
-            <element signature="e#18092#18093#0" expanded="false" />
-            <element signature="e#18142#18143#0" expanded="false" />
+            <element signature="class#4342:4878" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1758,22 +1697,11 @@
         <state relative-caret-position="3264">
           <caret line="248" column="55" lean-forward="false" selection-start-line="248" selection-start-column="55" selection-end-line="248" selection-end-column="55" />
           <folding>
-            <element signature="e#2413#2414#0" expanded="false" />
-            <element signature="e#2451#2452#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2608#2609#0" expanded="false" />
-            <element signature="docComment;method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isAircraftConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isHandHeldConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getCameraInstance#0;class#djiBackend#0" expanded="false" />
-            <element signature="e#4096#4097#0" expanded="false" />
-            <element signature="e#4148#4149#0" expanded="false" />
-            <element signature="class#4200:4736" expanded="false" />
-            <element signature="e#11318#11319#0" expanded="false" />
-            <element signature="e#11355#11356#0" expanded="false" />
-            <element signature="e#18092#18093#0" expanded="false" />
-            <element signature="e#18142#18143#0" expanded="false" />
+            <element signature="class#4342:4878" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1793,9 +1721,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1805,34 +1731,12 @@
           <caret line="776" column="5" lean-forward="false" selection-start-line="776" selection-start-column="5" selection-end-line="776" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6840#6841#0" expanded="true" />
-            <element signature="e#6871#6872#0" expanded="true" />
-            <element signature="e#9493#9709#0" expanded="true" />
-            <element signature="e#9708#9709#0" expanded="true" />
-            <element signature="method#initFlightController#0;class#DJIfrontEnd#0" expanded="false" />
+            <element signature="method#getVideoFrame#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#takeOff#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#land#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="method#followMeStart#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#15898#16159#0" expanded="true" />
-            <element signature="e#16158#16159#0" expanded="true" />
-            <element signature="e#16287#17038#0" expanded="true" />
-            <element signature="e#16616#16996#0" expanded="true" />
-            <element signature="e#16995#16996#0" expanded="true" />
-            <element signature="e#17037#17038#0" expanded="true" />
-            <element signature="method#followMeStop#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="class#SendVirtualStickDataTask#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#20498#21040#0" expanded="true" />
-            <element signature="e#21039#21040#0" expanded="true" />
             <element signature="method#startSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#stopSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#23886#24234#0" expanded="true" />
-            <element signature="e#24233#24234#0" expanded="true" />
-            <element signature="e#26481#27861#0" expanded="true" />
-            <element signature="e#27860#27861#0" expanded="true" />
-            <element signature="e#28865#29042#0" expanded="true" />
-            <element signature="e#29041#29042#0" expanded="true" />
-            <element signature="e#29180#29368#0" expanded="true" />
-            <element signature="e#29367#29368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1864,22 +1768,11 @@
         <state relative-caret-position="3349">
           <caret line="248" column="55" lean-forward="false" selection-start-line="248" selection-start-column="55" selection-end-line="248" selection-end-column="55" />
           <folding>
-            <element signature="e#2413#2414#0" expanded="false" />
-            <element signature="e#2451#2452#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2608#2609#0" expanded="false" />
-            <element signature="docComment;method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isAircraftConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isHandHeldConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getCameraInstance#0;class#djiBackend#0" expanded="false" />
-            <element signature="e#4096#4097#0" expanded="false" />
-            <element signature="e#4148#4149#0" expanded="false" />
-            <element signature="class#4200:4736" expanded="false" />
-            <element signature="e#11318#11319#0" expanded="false" />
-            <element signature="e#11355#11356#0" expanded="false" />
-            <element signature="e#18092#18093#0" expanded="false" />
-            <element signature="e#18142#18143#0" expanded="false" />
+            <element signature="class#4342:4878" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1896,9 +1789,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1908,34 +1799,12 @@
           <caret line="776" column="5" lean-forward="false" selection-start-line="776" selection-start-column="5" selection-end-line="776" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6840#6841#0" expanded="true" />
-            <element signature="e#6871#6872#0" expanded="true" />
-            <element signature="e#9493#9709#0" expanded="true" />
-            <element signature="e#9708#9709#0" expanded="true" />
-            <element signature="method#initFlightController#0;class#DJIfrontEnd#0" expanded="false" />
+            <element signature="method#getVideoFrame#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#takeOff#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#land#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="method#followMeStart#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#15898#16159#0" expanded="true" />
-            <element signature="e#16158#16159#0" expanded="true" />
-            <element signature="e#16287#17038#0" expanded="true" />
-            <element signature="e#16616#16996#0" expanded="true" />
-            <element signature="e#16995#16996#0" expanded="true" />
-            <element signature="e#17037#17038#0" expanded="true" />
-            <element signature="method#followMeStop#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="class#SendVirtualStickDataTask#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#20498#21040#0" expanded="true" />
-            <element signature="e#21039#21040#0" expanded="true" />
             <element signature="method#startSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#stopSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#23886#24234#0" expanded="true" />
-            <element signature="e#24233#24234#0" expanded="true" />
-            <element signature="e#26481#27861#0" expanded="true" />
-            <element signature="e#27860#27861#0" expanded="true" />
-            <element signature="e#28865#29042#0" expanded="true" />
-            <element signature="e#29041#29042#0" expanded="true" />
-            <element signature="e#29180#29368#0" expanded="true" />
-            <element signature="e#29367#29368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1967,22 +1836,11 @@
         <state relative-caret-position="3349">
           <caret line="248" column="55" lean-forward="false" selection-start-line="248" selection-start-column="55" selection-end-line="248" selection-end-column="55" />
           <folding>
-            <element signature="e#2413#2414#0" expanded="false" />
-            <element signature="e#2451#2452#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2608#2609#0" expanded="false" />
-            <element signature="docComment;method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isAircraftConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isHandHeldConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getCameraInstance#0;class#djiBackend#0" expanded="false" />
-            <element signature="e#4096#4097#0" expanded="false" />
-            <element signature="e#4148#4149#0" expanded="false" />
-            <element signature="class#4200:4736" expanded="false" />
-            <element signature="e#11318#11319#0" expanded="false" />
-            <element signature="e#11355#11356#0" expanded="false" />
-            <element signature="e#18092#18093#0" expanded="false" />
-            <element signature="e#18142#18143#0" expanded="false" />
+            <element signature="class#4342:4878" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1999,9 +1857,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2011,34 +1867,12 @@
           <caret line="776" column="5" lean-forward="false" selection-start-line="776" selection-start-column="5" selection-end-line="776" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6840#6841#0" expanded="true" />
-            <element signature="e#6871#6872#0" expanded="true" />
-            <element signature="e#9493#9709#0" expanded="true" />
-            <element signature="e#9708#9709#0" expanded="true" />
-            <element signature="method#initFlightController#0;class#DJIfrontEnd#0" expanded="false" />
+            <element signature="method#getVideoFrame#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#takeOff#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#land#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="method#followMeStart#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#15898#16159#0" expanded="true" />
-            <element signature="e#16158#16159#0" expanded="true" />
-            <element signature="e#16287#17038#0" expanded="true" />
-            <element signature="e#16616#16996#0" expanded="true" />
-            <element signature="e#16995#16996#0" expanded="true" />
-            <element signature="e#17037#17038#0" expanded="true" />
-            <element signature="method#followMeStop#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="class#SendVirtualStickDataTask#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#20498#21040#0" expanded="true" />
-            <element signature="e#21039#21040#0" expanded="true" />
             <element signature="method#startSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#stopSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#23886#24234#0" expanded="true" />
-            <element signature="e#24233#24234#0" expanded="true" />
-            <element signature="e#26481#27861#0" expanded="true" />
-            <element signature="e#27860#27861#0" expanded="true" />
-            <element signature="e#28865#29042#0" expanded="true" />
-            <element signature="e#29041#29042#0" expanded="true" />
-            <element signature="e#29180#29368#0" expanded="true" />
-            <element signature="e#29367#29368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2064,34 +1898,12 @@
           <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6840#6841#0" expanded="true" />
-            <element signature="e#6871#6872#0" expanded="true" />
-            <element signature="e#9493#9709#0" expanded="true" />
-            <element signature="e#9708#9709#0" expanded="true" />
-            <element signature="method#initFlightController#0;class#DJIfrontEnd#0" expanded="false" />
+            <element signature="method#getVideoFrame#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#takeOff#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#land#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="method#followMeStart#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#15898#16159#0" expanded="true" />
-            <element signature="e#16158#16159#0" expanded="true" />
-            <element signature="e#16287#17038#0" expanded="true" />
-            <element signature="e#16616#16996#0" expanded="true" />
-            <element signature="e#16995#16996#0" expanded="true" />
-            <element signature="e#17037#17038#0" expanded="true" />
-            <element signature="method#followMeStop#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="class#SendVirtualStickDataTask#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#20498#21040#0" expanded="true" />
-            <element signature="e#21039#21040#0" expanded="true" />
             <element signature="method#startSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#stopSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#23886#24234#0" expanded="true" />
-            <element signature="e#24233#24234#0" expanded="true" />
-            <element signature="e#26481#27861#0" expanded="true" />
-            <element signature="e#27860#27861#0" expanded="true" />
-            <element signature="e#28865#29042#0" expanded="true" />
-            <element signature="e#29041#29042#0" expanded="true" />
-            <element signature="e#29180#29368#0" expanded="true" />
-            <element signature="e#29367#29368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2101,22 +1913,11 @@
         <state relative-caret-position="3349">
           <caret line="248" column="55" lean-forward="false" selection-start-line="248" selection-start-column="55" selection-end-line="248" selection-end-column="55" />
           <folding>
-            <element signature="e#2413#2414#0" expanded="false" />
-            <element signature="e#2451#2452#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2608#2609#0" expanded="false" />
-            <element signature="docComment;method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isAircraftConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isHandHeldConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getCameraInstance#0;class#djiBackend#0" expanded="false" />
-            <element signature="e#4096#4097#0" expanded="false" />
-            <element signature="e#4148#4149#0" expanded="false" />
-            <element signature="class#4200:4736" expanded="false" />
-            <element signature="e#11318#11319#0" expanded="false" />
-            <element signature="e#11355#11356#0" expanded="false" />
-            <element signature="e#18092#18093#0" expanded="false" />
-            <element signature="e#18142#18143#0" expanded="false" />
+            <element signature="class#4342:4878" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2133,9 +1934,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2166,22 +1965,11 @@
         <state relative-caret-position="3349">
           <caret line="248" column="55" lean-forward="false" selection-start-line="248" selection-start-column="55" selection-end-line="248" selection-end-column="55" />
           <folding>
-            <element signature="e#2413#2414#0" expanded="false" />
-            <element signature="e#2451#2452#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2608#2609#0" expanded="false" />
-            <element signature="docComment;method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isAircraftConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isHandHeldConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getCameraInstance#0;class#djiBackend#0" expanded="false" />
-            <element signature="e#4096#4097#0" expanded="false" />
-            <element signature="e#4148#4149#0" expanded="false" />
-            <element signature="class#4200:4736" expanded="false" />
-            <element signature="e#11318#11319#0" expanded="false" />
-            <element signature="e#11355#11356#0" expanded="false" />
-            <element signature="e#18092#18093#0" expanded="false" />
-            <element signature="e#18142#18143#0" expanded="false" />
+            <element signature="class#4342:4878" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2201,9 +1989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2213,34 +1999,12 @@
           <caret line="722" column="71" lean-forward="false" selection-start-line="722" selection-start-column="71" selection-end-line="722" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6840#6841#0" expanded="true" />
-            <element signature="e#6871#6872#0" expanded="true" />
-            <element signature="e#9493#9709#0" expanded="true" />
-            <element signature="e#9708#9709#0" expanded="true" />
-            <element signature="method#initFlightController#0;class#DJIfrontEnd#0" expanded="false" />
+            <element signature="method#getVideoFrame#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#takeOff#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#land#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="method#followMeStart#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#15898#16159#0" expanded="true" />
-            <element signature="e#16158#16159#0" expanded="true" />
-            <element signature="e#16287#17038#0" expanded="true" />
-            <element signature="e#16616#16996#0" expanded="true" />
-            <element signature="e#16995#16996#0" expanded="true" />
-            <element signature="e#17037#17038#0" expanded="true" />
-            <element signature="method#followMeStop#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="class#SendVirtualStickDataTask#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#20498#21040#0" expanded="true" />
-            <element signature="e#21039#21040#0" expanded="true" />
             <element signature="method#startSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#stopSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#23886#24234#0" expanded="true" />
-            <element signature="e#24233#24234#0" expanded="true" />
-            <element signature="e#26481#27861#0" expanded="true" />
-            <element signature="e#27860#27861#0" expanded="true" />
-            <element signature="e#28865#29042#0" expanded="true" />
-            <element signature="e#29041#29042#0" expanded="true" />
-            <element signature="e#29180#29368#0" expanded="true" />
-            <element signature="e#29367#29368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2259,30 +2023,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unity_plugin_merged.aar/5c9ce3a218aae14e8eb8e2b30d247f0b/jars/classes.jar!/com/projecttango/unity/TangoUnityHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://B:/AndroidSDK/sources/android-26/android/app/Activity.java">
@@ -2306,75 +2051,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/projecttango/droneMaze/MApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/projecttango/droneMaze/djiBackend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4335">
-          <caret line="308" column="27" lean-forward="false" selection-start-line="308" selection-start-column="16" selection-end-line="308" selection-end-column="27" />
+        <state relative-caret-position="1292">
+          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
           <folding>
-            <element signature="e#2413#2414#0" expanded="false" />
-            <element signature="e#2451#2452#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2608#2609#0" expanded="false" />
-            <element signature="docComment;method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getProductInstance#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isAircraftConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#isHandHeldConnected#0;class#djiBackend#0" expanded="false" />
             <element signature="method#getCameraInstance#0;class#djiBackend#0" expanded="false" />
-            <element signature="e#4096#4097#0" expanded="false" />
-            <element signature="e#4148#4149#0" expanded="false" />
-            <element signature="class#4200:4736" expanded="false" />
-            <element signature="e#11318#11319#0" expanded="false" />
-            <element signature="e#11355#11356#0" expanded="false" />
-            <element signature="e#18092#18093#0" expanded="false" />
-            <element signature="e#18142#18143#0" expanded="false" />
+            <element signature="class#4342:4878" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/projecttango/droneMaze/MApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/projecttango/droneMaze/DJIfrontEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="228" column="40" lean-forward="false" selection-start-line="228" selection-start-column="40" selection-end-line="228" selection-end-column="40" />
+        <state relative-caret-position="510">
+          <caret line="910" column="50" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="952" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6840#6841#0" expanded="true" />
-            <element signature="e#6871#6872#0" expanded="true" />
-            <element signature="e#9493#9709#0" expanded="true" />
-            <element signature="e#9708#9709#0" expanded="true" />
-            <element signature="method#initFlightController#0;class#DJIfrontEnd#0" expanded="false" />
+            <element signature="method#getVideoFrame#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#takeOff#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#land#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="method#followMeStart#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#15898#16159#0" expanded="true" />
-            <element signature="e#16158#16159#0" expanded="true" />
-            <element signature="e#16287#17038#0" expanded="true" />
-            <element signature="e#16616#16996#0" expanded="true" />
-            <element signature="e#16995#16996#0" expanded="true" />
-            <element signature="e#17037#17038#0" expanded="true" />
-            <element signature="method#followMeStop#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="class#SendVirtualStickDataTask#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#20498#21040#0" expanded="true" />
-            <element signature="e#21039#21040#0" expanded="true" />
             <element signature="method#startSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
             <element signature="method#stopSendingControl#0;class#DJIfrontEnd#0" expanded="false" />
-            <element signature="e#23886#24234#0" expanded="true" />
-            <element signature="e#24233#24234#0" expanded="true" />
-            <element signature="e#26481#27861#0" expanded="true" />
-            <element signature="e#27860#27861#0" expanded="true" />
-            <element signature="e#28865#29042#0" expanded="true" />
-            <element signature="e#29041#29042#0" expanded="true" />
-            <element signature="e#29180#29368#0" expanded="true" />
-            <element signature="e#29367#29368#0" expanded="true" />
           </folding>
         </state>
       </provider>

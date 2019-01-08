@@ -1,5 +1,12 @@
 package com.projecttango.droneMaze;
 
+//-------------------------------------
+// DJI Backend
+// "Here there be dragons"
+// Requires no modification by Unity program developer.
+// Do so at your own peril!
+//-------------------------------------
+
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.ResultReceiver;
@@ -48,7 +55,7 @@ import java.io.FileOutputStream;
 import java.nio.ByteBuffer;
 
 
-public class djiBackend extends Application implements TextureView.SurfaceTextureListener{
+public class djiBackend extends Application{ //implements TextureView.SurfaceTextureListener{
     public static final String FLAG_CONNECTION_CHANGE = "activationDemo_connection_change";
 
     private DJISDKManager.SDKManagerCallback mDJISDKManagerCallback;
@@ -61,8 +68,6 @@ public class djiBackend extends Application implements TextureView.SurfaceTextur
     private UnityPlayer mUnityPlayer;
 
     private String TAG = "BACKEND_DRONE";
-    private TextureView baseTV;
-    private SurfaceTexture baseTex;
     protected VideoFeeder.VideoDataCallback mReceivedVideoDataCallBack = null;
     protected DJICodecManager mCodecManager = null;
     private ResultReceiver rec;
@@ -154,16 +159,12 @@ public class djiBackend extends Application implements TextureView.SurfaceTextur
 
         };
 
-        //baseTV = new TextureView(getApplicationContext());
-        //baseTex = new SurfaceTexture(10);
-        //baseTV.setSurfaceTexture(baseTex);
-        onSurfaceTextureAvailable(null,16*40,9*40); //for YUV data
+        //onSurfaceTextureAvailable(null,16*40,9*40); //for YUV data
         mCodecManager.enabledYuvData(true);
 
         mCodecManager.setYuvDataCallback(new DJICodecManager.YuvDataCallback() {
             @Override
             public void onYuvDataReceived(ByteBuffer yuvFrame, int dataSize, int width, int height) {
-                //ready = true; // test code. don't keep!!!!
                 if(!ready || !video_enabled){
                     Log.d(TAG, "onYuvDataReceived: VIDEO READY:"+ready+" VIDEO ENABLED:"+video_enabled);
                     return;
@@ -239,32 +240,8 @@ public class djiBackend extends Application implements TextureView.SurfaceTextur
                     ready = true;
                 }
 
-                //new SavePhotoTask().execute(jdata);
-                //Log.d(TAG, "onYuvDataReceived: JPEG SIZE: " + jdata.length);
-                /*Bundle b = new Bundle();
-                //byte[] dat = new byte[dataSize/2];
-
-                b.putByteArray("VIDEO_BUFF",jdata);
-                b.putInt("BUFF_SIZE", jdata.length);
-                b.putString("ServiceTag","djiBackend");
-                */
-                /*try{
-                    Log.d(TAG, "onYuvDataReceived: BUNDLE COULD BE SENT");
-                    //rec.send(1,b);
-                }catch (Exception exc){
-                    Log.d(TAG,exc.toString());
-                }*/
             }
         });
-
-        // may not need ----
-        /*baseTex.setOnFrameAvailableListener(new SurfaceTexture.OnFrameAvailableListener() {
-            @Override
-            public void onFrameAvailable(SurfaceTexture surfaceTexture) {
-                Log.d(TAG, "onFrameAvailable: A NEW FRAME IS AVAILABLE!");
-            }
-        });
-*/
 
         mReceivedVideoDataCallBack = new VideoFeeder.VideoDataCallback() {
             @Override
@@ -279,16 +256,10 @@ public class djiBackend extends Application implements TextureView.SurfaceTextur
                 if (mCodecManager != null) {
                     mCodecManager.sendDataToDecoder(videoBuffer, size);
                     Log.d(TAG, "onReceive: VIDEO SENT: " + size);
-                    //Bitmap b = baseTV.getBitmap();
-                    //Log.d(TAG, "onReceive: BITMAP"+ baseTV.getBitmap().toString());
                 } else {
                     Log.d(TAG, "onReceive: CODEC MANAGER NULL");
-                    //Log.d(TAG, "onReceive: CODEC MANAGER NULL. TRYING TO INIT");
-                    //onSurfaceTextureAvailable(baseTex,160,90);
                 }
-                //}else{
-                //vid += 1;
-                //}
+
             }
         };
 
@@ -318,7 +289,7 @@ public class djiBackend extends Application implements TextureView.SurfaceTextur
 
      /* Video functions */
 
-
+    /*
     @Override
     public void onSurfaceTextureAvailable(SurfaceTexture surface, int width, int height) {
         Log.d(TAG, "onSurfaceTextureAvailable");
@@ -350,7 +321,6 @@ public class djiBackend extends Application implements TextureView.SurfaceTextur
         Log.d(TAG, "initPreviewer: PREVIEW INIT");
         BaseProduct product = getProductInstance();
         if (product == null || !product.isConnected()) {
-            //showToast("DISCONNECTED...");
             Log.d(TAG, "initPreviewer: DISCONNECTED");
         } else {
             if (null != baseTV) {
@@ -373,7 +343,7 @@ public class djiBackend extends Application implements TextureView.SurfaceTextur
         }
     }
 
-
+    */
 
     private void notifyStatusChange() {
         mHandler.removeCallbacks(updateRunnable);
@@ -388,11 +358,6 @@ public class djiBackend extends Application implements TextureView.SurfaceTextur
             getApplicationContext().sendBroadcast(intent);
         }
     };
-
-    /*@Override
-    public void onFrameAvailable(SurfaceTexture surfaceTexture) {
-        Log.d(TAG, "onFrameAvailable: RUN");
-    }*/
 
     class SavePhotoTask extends AsyncTask<byte[], String, String> {
         @Override
